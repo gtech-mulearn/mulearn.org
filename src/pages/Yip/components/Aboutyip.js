@@ -37,7 +37,7 @@ const Aboutyip = () => {
         <div class={classes.bulbContainer}>
           <img
             class={classes.paperBulb}
-            src="assets/Yip/PaperBulb.png"
+            src="assets/Yip/Paperbulb.png"
             alt=""
           />
         </div>
