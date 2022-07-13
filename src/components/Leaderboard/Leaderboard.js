@@ -6,7 +6,7 @@ const Leaderboard = () => {
     <Fragment>
       {/* <p className="tsheading w3-animate-opacity">Mulearn Leaderboards</p> */}
 
-      <p className={classes.tsheading}>Mulearn Leaderboards</p>
+      <p className={classes.tsheading}>µlearn Leaderboards</p>
 
       {/* <div className="leaderboardsection w3-animate-opacity"> */}
 
