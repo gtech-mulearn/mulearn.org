@@ -278,7 +278,7 @@
   }
   
   @media only screen and (min-width: 1000px) {
-    .first-section {
+    .firstSection {
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -286,7 +286,7 @@
       margin: 10vh 6rem;
     }
   
-    .main-header {
+    .mainHeader {
       font-family: "Outfit", sans-serif;
       font-size: 4rem;
     }
@@ -357,14 +357,14 @@
       width: 15rem;
     }
   
-    .yt-video {
+    .ytVideo {
       width: 30vw;
       min-height: 35vh;
       border-radius: 8px;
       margin: 5vh 0;
     }
   
-    .image-container {
+    .imageContainer {
       display: flex;
       align-items: center;
       justify-content: space-evenly;
@@ -391,7 +391,7 @@
     width: 4rem;
   }
   
-  .third-section {
+  .thirdSection {
     margin: 7vh 0;
     margin-bottom: 15vh;
   }

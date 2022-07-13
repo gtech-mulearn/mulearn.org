@@ -1,12 +1,13 @@
 import React from "react";
 import Aboutyip from "./components/Aboutyip";
+import classes from "./Yip.module.css";
 
 const Yip = () => {
   return (
     <main>
       <Aboutyip />
 
-      <div class="third-section" id="timeline">
+      <div class={classes.thirdSection} id="timeline">
         <p class="tsheading">YIP Idea Registration Procedure</p>
         <div class="timeline-container">
           <div class="timeline">
