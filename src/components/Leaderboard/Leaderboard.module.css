@@ -1,0 +1,55 @@
+
+/* Third Section of Main Content */
+  
+.thirdsection {
+  margin: 1rem;
+}
+
+.tsheading {
+  font-size: 1.75rem;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+@media only screen and (min-width: 1000px) {
+  .tsheading {
+    font-size: 1.95rem;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+  }
+
+  .thirdsection {
+    margin: 10vh 5rem;
+  }
+}
+ 
+  /* LeaderBoard Styles */
+  
+  .leaderboardsection {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .clgframe,
+  .studentframe {
+    width: 80vw;
+    height: 60vh;
+    margin: 2.5vh 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px #dddff7;
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    .leaderboardsection {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  
+    .clgframe,
+    .studentframe {
+      width: 40vw;
+      height: 50vh;
+    }
+  }
